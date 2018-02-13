@@ -22,15 +22,15 @@
 - [lab 01](lab01/content.md): first container - pull, run, review, stop an nginx container
 - [lab 02](lab02/content.md): creating your first container - creating and running your first container with a dockerfile and a node.js process
 
-**Getting Started with Minikube** ( https://kubernetes.io/docs/tutorials/kubernetes-basics/deploy-interactive/ )
+**Getting Started with Minikube** 
 
 - [lab 03](lab03/content.md): starting minikube - minikube start, kubectl cluster-info, kubectl get-nodes, minkube dashboard
 - [lab 04](lab04/content.md): deploy a web server - kubectl run, kubectl expose deployment, curl
 
 **Deploying an application on minikube**
 
-- [lab 05](lab05/content.md): deploying a node.js process ( https://github.com/irvnet/icp-workshop/blob/master/07a-containerizing-for-deploy.md )
-- [lab 06](lab06/content.md): deploying the Guestbook Application ( https://kubernetes.io/docs/tutorials/stateless-application/guestbook/ )
+- [lab 05](lab05/content.md): Containerize and deploy a node.js process
+- [lab 06](lab06/content.md): deploying the Guestbook Application
 
 **Discussion and Questions**
 
