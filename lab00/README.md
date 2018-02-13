@@ -52,28 +52,32 @@ Minikube makes it easy to run an easy to use, installation of Kubernetes that's 
 
 For this tutorial we'll download minikube v0.24.1. Binaries are available for [Mac](https://storage.googleapis.com/minikube/releases/v0.24.1/minikube-darwin-amd64), [Linux](https://storage.googleapis.com/minikube/releases/v0.24.1/minikube-linux-amd64), [Windows](https://storage.googleapis.com/minikube/releases/v0.24.1/minikube-windows-amd64.exe)
 
-Starting Minikube:
+Starting Minikube for the first time, it will download the iso image it needs to start the Kubernetes cluster
 
 ```
+
 $ minikube start
+There is a newer version of minikube available (v0.25.0).  Download it here:
+https://github.com/kubernetes/minikube/releases/tag/v0.25.0
+
+To disable this notification, run the following:
+minikube config set WantUpdateNotification false
 Starting local Kubernetes v1.8.0 cluster...
 Starting VM...
+Downloading Minikube ISO
+ 140.01 MB / 140.01 MB [============================================] 100.00% 0s
 Getting VM IP address...
 Moving files into cluster...
-Setting up certs...
+Downloading localkube binary
+ 148.25 MB / 148.25 MB [============================================] 100.00% 0s
+ 0 B / 65 B [----------------------------------------------------------]   0.00%
+ 65 B / 65 B [======================================================] 100.00% 0sSetting up certs...
 Connecting to cluster...
 Setting up kubeconfig...
 Starting cluster components...
 Kubectl is now configured to use the cluster.
 Loading cached images from config file.
-$
-$ minikube version
-minikube version: v0.24.1
-$
-$ minikube status
-minikube: Running
-cluster: Running
-kubectl: Correctly Configured: pointing to minikube-vm at 192.168.99.100
+
 
 ```
 We'll also [install the kubectl client](https://kubernetes.io/docs/tasks/tools/install-minikube/)... for this tutorial we'll install kubectl v1.8.8... download either the [Mac](https://dl.k8s.io/v1.8.8/kubernetes-client-darwin-amd64.tar.gz), [Linux](https://dl.k8s.io/v1.8.8/kubernetes-client-linux-amd64.tar.gz) or [Windows](https://dl.k8s.io/v1.8.8/kubernetes-client-windows-amd64.tar.gz) binaries appropriate for your system and make sure its available in your path.
