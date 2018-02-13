@@ -44,7 +44,7 @@ minikube   Ready     <none>    2h        v1.8.0
 
 ```
 
-You can check if there's a more updated version of minikube:
+We can check if there's a more updated version of minikube:
 
 ```
 $ minikube update-check
@@ -52,5 +52,14 @@ CurrentVersion: v0.24.1
 LatestVersion: v0.25.0
 ```
 
+We can also see what pods are running using kubectl. We haven't run any pods yet, but there are some system pods we can take a look at... 
 
+```
+$ kubectl get pods --all-namespaces
+NAMESPACE     NAME                          READY     STATUS    RESTARTS   AGE
+kube-system   kube-addon-manager-minikube   1/1       Running   0          4h
+kube-system   kube-dns-86f6f55dd5-hdzsm     3/3       Running   0          4h
+kube-system   kubernetes-dashboard-df52s    1/1       Running   0          4h
+kube-system   storage-provisioner           1/1       Running   0          4h
+```
 ---
