@@ -13,7 +13,7 @@ If you're [hearing about Docker for the first time](https://www.docker.com/what-
 
 The getting started guide on Docker has detailed instructions for installing Docker for [Mac](https://www.docker.com/community-edition#/mac), [Windows](https://www.docker.com/community-edition#/windows)
 
-
+When Docker is installed, it can be easily tested by running the "hello-world" container:
 ```
 $ docker run hello-world
 Unable to find image 'hello-world:latest' locally
