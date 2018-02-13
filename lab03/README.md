@@ -1,1 +1,56 @@
-lab03
+
+## Getting familiar with Minikube
+
+Minikube is our local, single node installation of Kubernetes. In this section get a little familiar with Minikube by looking around the environment.
+
+
+Now we're ready to take a closer look at minikube. Typing "minikube" at the prompt returns the usage statement. First we'll start minikube which will boot the virtual machine that runs Kubernetes.
+
+```
+$ minikube start
+Starting local Kubernetes v1.8.0 cluster...
+Starting VM...
+Getting VM IP address...
+Moving files into cluster...
+Setting up certs...
+Connecting to cluster...
+Setting up kubeconfig...
+Starting cluster components...
+Kubectl is now configured to use the cluster.
+Loading cached images from config file.
+
+```
+
+Now that our one node Kubernetes cluster is up and running, we can explore a little... lets start by checking the status of our cluster.
+
+```
+$ minikube status
+minikube: Running
+cluster: Running
+kubectl: Correctly Configured: pointing to minikube-vm at 192.168.99.100
+
+```
+
+Between minikube and kubectl we can look around at our environment. Run 'minikube' and 'kubectl' and take a look at the usage statement to see what the key commands are.
+
+Then lets interrogate the cluster... though a kubernetes cluster likely has multiple nodes, minikube is a single node cluster that's helpful for development and testing.
+
+```
+
+$ kubectl get nodes
+NAME       STATUS    ROLES     AGE       VERSION
+minikube   Ready     <none>    2h        v1.8.0
+
+
+```
+
+You can check if there's a more updated version of minikube:
+
+```
+$ minikube update-check
+CurrentVersion: v0.24.1
+LatestVersion: v0.25.0
+```
+
+
+---
