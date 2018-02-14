@@ -7,7 +7,7 @@ We'll need to install Minkube as a runtime environment as well as the required C
 
 **Installing the Docker engine**
 
-Technically... you don't need the engine itself because minikube contains one, you'll need the Docker Command Line Interface (CLI) that comes with the engine. We will, however test some of our containers locally, so the docker engine will need to be installed.
+Technically... you don't need docker installed because minikube already has it available... however we'll, test some of our containers locally first, so the docker engine will need to be installed.
 
 If you're [hearing about Docker for the first time](https://www.docker.com/what-container), Dockers website is a great place to get context.
 
