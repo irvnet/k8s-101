@@ -9,28 +9,27 @@
 
 **Presentation and Discussion**
 
-- What are containers (lxc/d -> docker -> Borg -> K8s)?
-- Containers or virtual machines? (smaller, lighter, faster, but... more like containers AND vm's till you technical debt is paid...)
-- What is "container orchestration" and what does [Kubernetes](https://kubernetes.io/) do?
-- Why does this matter for businesses? -  ease of use, stability, scalability
+In this segment we'll spend about 30 minutes talking through the basics:
+- What are "containers" and where did they come from?
+- What's the difference between containers and Virtual machines?
+- What's "container orchestration" and what's [Kubernetes](https://kubernetes.io/) all about?
 
 **10 minute break**
 
-**Understanding Docker**
+**Exercises**
 
-- [lab 00](lab00/content.md): creating a working environment - installing virtualbox, docker, minikube and kubectl on the local machine
-- [lab 01](lab01/content.md): first container - pull, run, review, stop an nginx container
-- [lab 02](lab02/content.md): creating your first container - creating and running your first container with a dockerfile and a node.js process
+- [lab 00](lab00/content.md): Creating a working environment
+- [lab 01](lab01/content.md): Running your first docker container
+- [lab 02](lab02/content.md): Building your own docker container
 
-**Getting Started with Minikube** 
+**Getting Started with Minikube**
 
-- [lab 03](lab03/content.md): starting minikube - minikube start, kubectl cluster-info, kubectl get-nodes, minkube dashboard
-- [lab 04](lab04/content.md): deploy a web server - kubectl run, kubectl expose deployment, curl
+- [lab 03](lab03/content.md): Running Kubernetes with Minikube
+- [lab 04](lab04/content.md): Deploying a containers to minikube
 
 **Deploying an application on minikube**
 
-- [lab 05](lab05/content.md): Containerize and deploy a node.js process
-- [lab 06](lab06/content.md): deploying the Guestbook Application
+- [lab 05](lab05/content.md): Containerize and deploy a node.js application
 
 **Discussion and Questions**
 
