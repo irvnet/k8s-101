@@ -18,18 +18,18 @@ In this segment we'll spend about 30 minutes talking through the basics:
 
 **Exercises**
 
-- [lab 00](lab00/content.md): Creating a working environment
-- [lab 01](lab01/content.md): Running your first docker container
-- [lab 02](lab02/content.md): Building your own docker container
+- [lab 00](lab00/README.md): Creating a working environment
+- [lab 01](lab01/README.md): Running your first docker container
+- [lab 02](lab02/README.md): Building your own docker container
 
 **Getting Started with Minikube**
 
-- [lab 03](lab03/content.md): Running Kubernetes with Minikube
-- [lab 04](lab04/content.md): Deploying a containers to minikube
+- [lab 03](lab03/README.md): Running Kubernetes with Minikube
+- [lab 04](lab04/README.md): Deploying a containers to minikube
 
 **Deploying an application on minikube**
 
-- [lab 05](lab05/content.md): Containerize and deploy a node.js application
+- [lab 05](lab05/README.md): Containerize and deploy a node.js application
 
 **Discussion and Questions**
 
