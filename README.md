@@ -24,8 +24,8 @@ In this segment we'll spend about 30 minutes talking through the basics:
 
 **Getting Started with Minikube**
 
-- [lab 03](lab03/README.md): Running Kubernetes with Minikube
-- [lab 04](lab04/README.md): Deploying a containers to minikube
+- [lab 03](lab03/README.md): Running Kubernetes with minikube
+- [lab 04](lab04/README.md): Deploying a container to minikube
 
 **Deploying an application on minikube**
 
