@@ -149,8 +149,15 @@ my-deploy-857bc7b484-w27c2   1/1       Running       0          13s
 
 ```
 
-To validate that the proper pod is running, do a 'describe' on either the deployment or one of the pods and see...
+To validate that the proper pod is running, do a 'describe' on the deployment or one of the pods and see what image is currently in use...
 
+Now that we've gotten a bit of a feel for working with Kubernetes we can clean up and move on to the next thing!
+
+```
+$ kubectl delete deployment my-deploy
+deployment "my-deploy" deleted
+
+```
 
 
 
