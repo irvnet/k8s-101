@@ -137,5 +137,3 @@ Hello World!
 We've built and run our first container on Kubernetes!
 
 ---
-
-Now we've run this locally, we'll run our application on Minikube
