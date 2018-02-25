@@ -30,7 +30,8 @@ In this segment we'll spend about 30 minutes talking through the basics:
 **Deploying an application on minikube**
 
 - [lab 05](lab05/README.md): Containerize and deploy a node.js application
+- lab 06: Deploy a multi-container application
 
-**Discussion and Questions**
+**Questions?**
 
 ---
