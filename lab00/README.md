@@ -3,11 +3,11 @@
 ### Creating a Working Environment
 In this section we'll install the tools required to run containers locally on the docker engine, as well as on minikube to better see container orchestration in action. If you already have a working Minikube installation you can skip this section.
 
-We'll need to install Minkube as a runtime environment as well as the required CLIs to run the examples... this includes:
+We'll need to install Minkube as a runtime environment as well as the kubectl client and the Docker engine.  
 
 **Installing the Docker engine**
 
-Technically... you don't need docker installed because minikube already has it available... however we'll, test some of our containers locally first, so the docker engine will need to be installed.
+Technically... you don't need docker installed because minikube already has it available... however we'll, take a brief look at docker and run a few containers before we try out kubernetes, so docker engine will need to be installed.
 
 If you're [hearing about Docker for the first time](https://www.docker.com/what-container), Dockers website is a great place to get context.
 
