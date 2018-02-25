@@ -1,7 +1,12 @@
 
 ## Getting familiar with Minikube
 
-Minikube is our local, single node installation of Kubernetes. In this section get a little familiar with Minikube by looking around the environment.
+In this section get a little familiar with Minikube by looking around the environment.
+
+Minikube is our local, single node installation of Kubernetes... its great for our purposes, which is to learn more about how Kubernetes works without getting to distracted by the details of setting up a multi-node cluster.
+
+![](../images/minikube-installation.jpg)
+
 
 
 Now we're ready to take a closer look at minikube. Typing "minikube" at the prompt returns the usage statement. First we'll start minikube which will boot the virtual machine that runs Kubernetes.
@@ -52,7 +57,7 @@ CurrentVersion: v0.24.1
 LatestVersion: v0.25.0
 ```
 
-We can also see what pods are running using kubectl. We haven't run any pods yet, but there are some system pods we can take a look at... 
+We can also see what pods are running using kubectl. We haven't run any pods yet, but there are some system pods we can take a look at...
 
 ```
 $ kubectl get pods --all-namespaces
