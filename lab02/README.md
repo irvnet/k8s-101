@@ -34,7 +34,7 @@ $ docker build -t mynode:v1.0 .
 4. Run the image and test it locally
 
 ```
-$ docker run --rm -d -p 8080:8080 --name mynode-sample  hello-node:v1
+$ docker run --rm -d -p 8080:8080 --name mynode-sample  mynode:v1.0
 ```
 
   For a quick test of the container running locally on your machine, In your browser, access http://localhost:8080.  
