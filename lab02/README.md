@@ -1,5 +1,5 @@
 
-## Containerize a simple node.js process
+## Containerize a python microsericce process
 
 In this section we'll create a simple Python microservice and wrap it in a docker container.
 
