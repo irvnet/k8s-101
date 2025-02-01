@@ -28,7 +28,7 @@ Now we can use the local image to create a running instance of a container with 
 
 ```
 
- docker run -it --name myFirstContainer ubuntu:22.04 /bin/bash
+$ docker run -it --name myFirstContainer ubuntu:22.04 /bin/bash
 root@cb09f1167ce2:/# ls
 bin  boot  dev  etc  home  lib  lib32  lib64  libx32  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var
 root@cb09f1167ce2:/# exit
