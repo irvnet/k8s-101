@@ -1,7 +1,0 @@
-kind: Namespace
-apiVersion: v1
-metadata:
-  name: workspace1 
-  labels:
-    name: workspace1
- 
