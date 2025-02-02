@@ -1,7 +1,5 @@
 
 
-![](images/repo-cover.jpg)
-
 **Session Objective:**  introduction to containers and Kubernetes. Overview of the "what" and "why" of Docker containers and an overview of container orchestration with Kubernetes. In addition to lecture and discussion will be some hands on labs to demonstrate how to install the required tools and see how containers work in practice. Attending this session will give you the basic skills to explore and experiment with containers to determine how they best fit your use cases, or just to have fun with them!
 
 **Proposed Duration**: 2hrs including ~30 minutes of presentation and ~90 minutes of hands on exercises
@@ -32,8 +30,7 @@ In this segment we'll spend about 30 minutes talking through the basics:
 
 **Deploying an application on minikube**
 
-- [lab 05](lab05/README.md): Containerize and deploy a node.js application
-- [lab 06](lab06/README.md): Deploy a multi-container application
+- [lab 05](lab05/README.md): Deploy a multi-container application
 
 **Questions?**
 
